@@ -1,6 +1,9 @@
 # Circle by Aldo Santa María
 ## mid-term-project-ih
 
+![giphy](https://user-images.githubusercontent.com/76580/167318130-3f0e5e19-86bc-4278-aaab-a988febcea3f.gif)
+
+
 
 
 . Dia 21 noviembre:
