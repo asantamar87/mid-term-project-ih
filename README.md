@@ -1,5 +1,5 @@
-## Circle by Aldo Santa María
-# mid-term-project-ih
+# Circle by Aldo Santa María
+## mid-term-project-ih
 
 
 . Dia 22 noviembre:
