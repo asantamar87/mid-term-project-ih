@@ -90,7 +90,7 @@ h6 {
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat;
-    outline: 1px solid rgb(255, 0, 251) !important;
+    /* outline: 1px solid rgb(255, 0, 251) !important; */
 
 }
 
@@ -135,7 +135,7 @@ a:hover {
 
 
 .container {
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
     max-width: 1100px;
     margin-right: auto;
     margin-left: auto;
@@ -297,7 +297,7 @@ img {
 }
 
 .projects-heading {
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
     color: #292e47;
     font-size: 40px;
 }
@@ -409,7 +409,7 @@ img {
   }
 
 .section.testimonial {
-    outline: 1px solid red !important;
+    /* outline: 1px solid red !important; */
 
     position: relative;
     height: 622px;
@@ -577,7 +577,7 @@ img {
 
     grid-column-gap: 40px;
 
-    outline: 1px solid rgb(221, 10, 207) !important;
+    /* outline: 1px solid rgb(221, 10, 207) !important; */
 
 }
 
@@ -588,7 +588,7 @@ img {
 
     max-width: 340px;
 
-    outline: 1px solid rgb(80, 221, 10) !important;
+    /* outline: 1px solid rgb(80, 221, 10) !important; */
     background-color: #ffffff;
 
 
@@ -720,13 +720,6 @@ padding-left: 60px;
   .button.primary-button:hover {
     background-color: #292e47;
   }
-
-
-
-
-
-
-
 
 
 
