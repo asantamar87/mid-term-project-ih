@@ -12,14 +12,13 @@
 body {
     background-color: #f2f4fc;
     font-family: Roboto, sans-serif;
-    color: #292e47;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
+    color: #292e47;
+    
 }
 
-.body-4 {
-    margin-left: 0px;
-}
 
 a{padding: 10px;}
 
@@ -62,78 +61,407 @@ h6 {
 }
 
 
+/* Responsive Design */
 
 
 
+/* Funcionalidades Responsive para pantallas tamaño tablet */
 
-
-
-/* outline: 1px solid red !important; */
-
-
-
-
-/* .w-button {
-    display: inline-block;
-    padding: 9px 15px;
-    background-color: #3898EC;
-    color: white;
-    border: 0;
-    line-height: inherit;
-    text-decoration: none;
-    cursor: pointer;
-    border-radius: 0;
-  }
- */
-
-
-
-/* PREPARANDO RESPONSIVE DESIGN */
-/* .w-nav-brand {
-    position: relative;
-    float: left;
-    text-decoration: none;
-    color: #333333;
-  } */
-
-
-
-/*     NAV BAR     */
-/* LOGO,  NAVBAR SECTION and CONTACT US  */
-
-/* Transitions of buttoms */
-
-/* .button {
-    text-decoration: none;
-    font-family: sans-serif;
-    letter-spacing: 1px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 40px;
-    padding-right: 40px;
-    background-color: black;
-    color: white;
-    display: block;
-    width: 150px;
-    text-align: center;
-    margin-top: 100px;
-    transition: background-color .5s ease-in-out 100ms
+/* @media (max-width: 900px) and (min-width:600px) {
+    #NavButton{
+        display: none;
+    }
+    .menu{
+        display: none;
+    }
+    body{
+        margin: 5px;
+        padding: 10px;
+        font-size: 8px;
+    }
+    #NavButton{
+        display: none;
+    }
+    .topnav{
+        display: block;
+        height: 50px;
+    }
+   
+    .container.navbar {
+  padding-right: 30px;
+  padding-left: 30px;
+}
     
-    /* text-transform: uppercase; */
-/* transition: background-color .5s */
-/* border-width: 1px;
-    border-style: solid;
-    border-color: black; 
-     border: 1px solid #072ac8; 
 } */
 
-/* .button:hover {
-    background-color: #292e47
+/* 
+@media screen and (max-width: 991px) {
+
+    .navbar-2.contact {
+        margin-top: 0px;
+    }
+
+
+
+} */
+/* Funcionalidades Responsive para pantallas tamaño mobil */
+/* 
+@media (max-width: 480px) {
+  
+    .body-4 {
+        margin-left:10px;
+        color: #6b708d;
+      }
+
+
+      .w-nav::after {
+        clear: both;
+      }
+      .w-nav::before, .w-nav::after {
+        content: " ";
+        display: table;
+        grid-column-start: 1;
+        grid-row-start: 1;
+        grid-column-end: 2;
+        grid-row-end: 2;
+      }
+
+    .w-nav {
+        position: relative;
+        background: #dddddd;
+        background-color: rgb(221, 221, 221);
+        background-attachment: scroll;
+        z-index: 1000;
+    }
+
+    .w-button {
+        display: inline-block;
+        padding: 9px 15px;
+        background-color: #3898EC;
+        color: white;
+        border: 0;
+        line-height: inherit;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 0;
+      }
+
+  
 } */
 
 
-/* .section {
-    outline: 1px solid red !important;
-    margin-top: 0px;
-    padding: 0px 30px;
-  } */
+
+
+@media screen and (max-width: 479px) {
+
+
+    
+
+    .button.primary-button.hero {
+      margin-right: 0px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+  
+    .heading-2.hero-heading {
+      font-size: 30px;
+    }
+  
+    .hero-buttons {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: reverse;
+      -webkit-flex-direction: column-reverse;
+      -ms-flex-direction: column-reverse;
+      flex-direction: column-reverse;
+      -webkit-box-pack: start;
+      -webkit-justify-content: flex-start;
+      -ms-flex-pack: start;
+      justify-content: flex-start;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .hero-text-button {
+      text-align: center;
+    }
+  
+    .grid-logos {
+      width: 100%;
+      max-width: 100%;
+      grid-auto-flow: row;
+      grid-column-gap: 20px;
+    }
+  
+    .client-logo {
+      width: 120px;
+    }
+  
+    .projects-heading {
+      font-size: 30px;
+    }
+  
+    .testimonial-heading {
+      font-size: 30px;
+    }
+  
+    .text-field {
+      width: 100%;
+    }
+  
+    .form-block {
+      max-width: 100%;
+    }
+  
+    .contact-form-wrapper {
+      grid-auto-columns: 1fr;
+    }
+  
+    .contact-text-wrapper {
+      max-width: 100%;
+    }
+  }
+
+
+  @media screen and (max-width: 767px) {
+
+  
+
+    .container.logos {
+      margin-top: 40px;
+    }
+  
+    .container.testimonial {
+      height: 100%;
+      -webkit-justify-content: space-around;
+      -ms-flex-pack: distribute;
+      justify-content: space-around;
+    }
+  
+    .container.container-cta {
+      max-width: 100%;
+    }
+  
+    .container.footer {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .button.primary-button.cta-button {
+      width: 100%;
+      max-width: 100%;
+      margin-top: 20px;
+      margin-left: 0px;
+    }
+  
+    .section.testimonial {
+      height: 450px;
+    }
+  
+    .section.cta-section {
+      width: 100%;
+    }
+  
+    .heading-2.hero-heading {
+      font-size: 40px;
+    }
+  
+    .text-block.hero-description {
+      font-size: 17px;
+    }
+  
+    .hero-card-1 {
+      display: none;
+    }
+  
+    .hero-card-2 {
+      display: none;
+    }
+  
+    .projects-heading {
+      text-align: center;
+    }
+  
+    .project-card {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .emoji.top-left {
+      display: none;
+    }
+  
+    .emoji.top-right {
+      display: none;
+    }
+  
+    .emoji.bottom-left {
+      display: none;
+    }
+  
+    .emoji.bottom-right {
+      display: none;
+    }
+  
+    .services-grid {
+      margin-top: 20px;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+    }
+  
+    .service-card {
+      max-width: 100%;
+    }
+  
+    .service-icon.icon-1 {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+    }
+  
+    .service-icon.icon-2 {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+    }
+  
+    .service-icon.icon-3 {
+      -webkit-box-flex: 0;
+      -webkit-flex: 0 0 auto;
+      -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+    }
+  
+    .cta-heading {
+      font-size: 30px;
+    }
+  
+    .cta-form {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .form-block {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .footer-content {
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+    }
+  
+    .footer-links {
+      margin-top: 20px;
+    }
+  
+    .footer-content-address {
+      text-align: center;
+    }
+  
+    .collection-list {
+      justify-items: stretch;
+      grid-auto-flow: row;
+      -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+      -ms-grid-rows: auto auto auto;
+      grid-template-rows: auto auto auto;
+    }
+  
+    .collection-list-wrapper {
+      margin-top: 20px;
+    }
+  
+    .project-page-title {
+      font-size: 40px;
+    }
+  
+    .project-type-wrapper {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  
+    .project-page-type {
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+  
+    .project-image-wrapper {
+      margin-top: 40px;
+    }
+  
+    .contact-heading {
+      margin-bottom: 40px;
+      font-size: 40px;
+    }
+  
+    .contact-form-wrapper {
+      max-width: 100%;
+      -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+      -ms-grid-rows: auto auto auto auto auto;
+      grid-template-rows: auto auto auto auto auto;
+    }
+  
+    .contact-form {
+      width: 100%;
+      max-width: 100%;
+    }
+  
+    .collection-item {
+      max-width: 100%;
+    }
+  }
+
+
+
+  @media screen and (max-width: 991px){
+    .client-logo.amazon {
+        display: none;
+      }
+
+      .container.hero-container {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+      }
+  }
+  
+  
+
+/* Funcionalidades Responsive para pantallas tamaño ordenador */
+
+/* 
+@media  (min-width: 1024px) {
+    .background {
+        height: 146px;
+    }
+    .Contenedor-menu-hamburguesa{
+        display: none;
+    }
+} */

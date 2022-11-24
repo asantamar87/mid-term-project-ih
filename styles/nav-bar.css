@@ -1,3 +1,8 @@
+
+.button {
+    color: white;
+}
+
 .navbar-2 {
     margin-top: 70px;
 }
@@ -51,8 +56,4 @@ a:hover {
 
 }
 
-.button {
-    font-family: Roboto, sans-serif;
-    color: white;
-}
 
