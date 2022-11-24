@@ -439,6 +439,9 @@ h6 {
 
 
   @media screen and (max-width: 991px){
+    .w-button{
+        display: none;
+    }
     .client-logo.amazon {
         display: none;
       }
@@ -450,6 +453,17 @@ h6 {
         -ms-flex-direction: column;
         flex-direction: column;
       }
+
+      .w-nav[data-collapse="medium"] .w-nav-button {
+        display: block;
+      }
+
+      .menu-button {
+        display: block;
+        color: #292e47;
+      }
+
+
   }
   
   
