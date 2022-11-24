@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Circle by Aldo Santa María</title>
 
-  <link rel="stylesheet" href="../styles/form/form.css">
+  <link rel="stylesheet" href="/styles/style.css">
 </head>
 
 <body class="body-4">
@@ -26,57 +26,54 @@
     </div>
   </div>
 
+<!-- CONTACT SECTION   -->
+<div class="section contact wf-section">
 
-  <!-- CONTACT SECTION   -->
-  <div class="section contact">
-    <!--  CONTACT CONTAINER  -->
-    <div class="container contact-container">
+  <!--  CONTACT CONTAINER  -->
+  <div class="container contact-container">
 
-      <h1 class="contact-heading">Contact Us</h1>
+    <!-- Heading h1 -->
+    <h1 class="contact-heading">Contact Us</h1>
+    <!-- FORM -->
+    <div class="contact-form w-form">
+      <!-- FORM WRAPPER -->
+      <form class="contact-form-wrapper" id="email-form">
+        <!-- CONTACT TEXT WRAPPER -->
 
-      <!-- FORM -->
-      <div class="contact-form">
-        <!-- FORM WRAPPER -->
-        <form class="contact-form-wrapper" action="" method="get" id="email-form" name="email-form" >
-          <!-- CONTACT TEXT WRAPPER -->
-          <div class="contact-text-wrapper">
-            <label for="name" class="contact-title">Full Name *</label>
-            <input type="text" class="contact-text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="Enter your full name" id="name" required="">
+        <div class="contact-text-wrapper">
+          <label for="" class="contact-title">Full Name *</label>
+          <input class="contact-text-field w-input" maxlength="256" type="text" name="name" id="name"
+            placeholder="Enter your full name" required>
+        </div>
 
-          </div>
-          <div class="contact-text-wrapper">
+        <div class="contact-text-wrapper">
+          <label for="" class="contact-title">Email</label>
+          <input class="contact-text-field  w-input" type="email" name="name-2" id="name-2"
+            placeholder="Enter your email">
+        </div>
 
-            <label for="name-2" class="contact-title">Email</label>
-            <input type="email" class="contact-text-field " maxlength="256" name="name-2" data-name="Name-2" placeholder="Enter your email" id="name-2">
-          </div>
-          <div class="contact-text-wrapper">
-            <label for="name-3" class="contact-title">Phone</label>
-            <input type="tel" class="contact-text-field w-input" maxlength="256" name="name-3" data-name="Name 3" placeholder="Enter your phone" id="name-3">
+        <div class="contact-text-wrapper">
+          <label for="name-3" class="contact-title">Phone</label>
+          <input type="tel" name="" id="" class="contact-text-field w-input" maxlength="256" name="name-3">
+        </div>
 
-          </div>
-          <div class="contact-text-wrapper">
+        <div class="contact-text-wrapper">
+          <label for="field" class="contact-title">Message *</label>
+          <!-- <textarea  id="field" placeholder="Write your message here..." maxlength="5000"  name="field" required="" data-name="field" class="contact-text-field textarea w-input"></textarea> -->
+          <textarea class="contact-text-field textarea w-input" name="" id="" cols="30" rows="10"></textarea>
+        </div>
 
-            <label for="field" class="contact-title">Message *</label>
-            <textarea placeholder="Write your message here..." maxlength="5000" id="field" name="field" required="" data-name="field" class="contact-text-field textarea w-input"></textarea>
-
-          </div>
-
-
-
-
-
-
-
+        <input id="" class="button primary-button contact w-button" type="submit" value="Submit"
+          data-wait="Please wait...">
 
 
-          <input type="submit" value="Submit" data-wait="Please wait..." id="w-node-_7ef6a5ff-dd5a-3c91-9fea-e572de56b1f7-de7c8cbd" class="button primary-button contact w-button">
-        </form>
+      </form>
+    </div>
 
-      </div>
- 
 
   </div>
-  </div>
+
+</div>
 
 
 

@@ -1,0 +1,58 @@
+.navbar-2 {
+    margin-top: 70px;
+}
+
+.container.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo {
+    width: 60px;
+    height: 18px;
+    background-image: url("/assets/logos/circle.svg");
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    /* outline: 1px solid rgb(255, 0, 251) !important; */
+}
+
+.nav-link {
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: none;
+
+    color: #6b708d;
+
+}
+
+.nav-link-current:hover {
+    color: #0082F3;
+  }
+
+
+.nav-link:hover {
+    color: #072ac8;
+}
+
+a:active,
+a:hover {
+    outline: 0;
+}
+
+
+/* NAVBAR - CONTACT US */
+.button.primary-button {
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+    text-decoration: none;
+
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    color: white;
+}
+

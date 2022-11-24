@@ -1,0 +1,101 @@
+
+
+/* CTA- SECTION */
+
+.section.cta-section {
+    width: 1320px;
+    height: 500px;
+    margin-top: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #f5c30d;
+
+}
+
+.container.container-cta {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-heading {
+    margin-bottom: 20px;
+    color: #292e47;
+    font-size: 40px;
+}
+
+.cta-subtitle {
+    font-size: 17px;
+    margin-bottom: 50px;
+}
+
+
+
+/* CTA - FORM BLOCK */
+
+.form.block {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* margin-top: 500px; */
+}
+
+.cta-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-textfield-wrapper {
+    position: relative;
+}
+
+.textfield-icon {
+    position: absolute;
+    left: 8%;
+    top: 27%;
+    right: auto;
+    bottom: auto;
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/newsletter/icon/mail.svg");
+    background-position: 50% 50%;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.text-field {
+    width: 393px;
+    height: 80px;
+    margin-bottom: 0px;
+    padding-left: 70px;
+    background-color: #ecf7ff;
+    color: #292e47;
+  }
+
+.text-field::placeholder {
+    color: #472929;
+    font-size: 17px;
+  }
+
+
+
+.button.primary-button.cta-button{
+    height: 80px;
+margin-left: 20px;
+padding-right: 60px;
+padding-left: 60px;
+}
+
+.button.primary-button {
+    padding: 15px 30px;
+    background-color: #072ac8;
+    font-size: 17px;
+  }
+
+  .button.primary-button:hover {
+    background-color: #292e47;
+  }
