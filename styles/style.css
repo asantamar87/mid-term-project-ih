@@ -90,7 +90,7 @@ h6 {
 
   /* CONFLICTOS BOTONES */
   .button.primary-button {
-    display: none;
+    display: block;
   }
 
   .button.primary-button.hero {
