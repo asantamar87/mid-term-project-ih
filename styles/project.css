@@ -212,6 +212,13 @@ img {
   display: block;
 }
 
+.project-card {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 
 /* NAVBAR - MENU*/
 
