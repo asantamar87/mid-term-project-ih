@@ -12,35 +12,6 @@ function hamburguerClick() {
   document.querySelector(".w-icon-nav-menu").addEventListener("click",hamburguerClick)
   
 
-                             
-  const getData = () => {
-    fetch('https://jsonplaceholder.typicode.com/posts/')
-      .then((response) => response.json())
-      .then((json) => {
-
-        let project = json[0]
-        console.log(project);
-
-        document.querySelector(".project-page-title").innerText =  project.title
-
-      })
-      // {
-      //   // let project = result[0]
-      //   //  console.log(project)
-
-      //   // let title = document.querySelector(".project-page-title")
-      //   // title.innerText = project.title;
-      //   // let body = document.querySelector(".project-detail")
-      //   // body.innerText = project.body;
-      // }
-      
-      // );
-
-
-  }
-
-  getData()
-
 
 
 // /* Conexión con API de prueba (jsonplaceholder) para recibir contenido para la pagina:

@@ -12,24 +12,77 @@
 </head>
 
 <body class="body-4">
-  <!--LOGO,  NAVBAR SECTION & CONTACT US -->
-  <div class="navbar-2 contact w-nav">
-    <!-- CONTAINER NAV -->
-    <div class="container navbar">
-      <!-- LOGO NAV BAR -->
-      <a class="navbar-logo" href="/index.html"></a>
-      <!-- NAV MENU -->
-      <nav class="w-nav-menu" role="navigation">
-        <label for="hamburger"></label>
-        <!-- <input type="checkbox" id="hamburger" /> -->
-        <a class="nav-link w-nav-link w--current nav-link-current" href="/index.html">Home</a>
-        <a class="nav-link w-nav-link" href="#">Projects</a>
-        <a class="nav-link w-nav-link" href="#">Services</a>
-      </nav>
-      <!-- BUTTOM CONTACT US -->
-      <a  class="button primary-button w-button" href="contact-us.html">Contact Us</a>
+ <!--LOGO,  NAVBAR SECTION & CONTACT US -->
+ <div class="navbar-2 contact w-nav" data-animation="default" data-collpase="medium" role="banner">
+  <!-- NAV-BAR CONTAINER -->
+  <div class="container navbar">
+    <!-- NAV-BAR LOGO -->
+    <a class="navbar-logo w-nav-brand" href="index.html"></a>
+    <!-- NAV MENU -->
+  
+
+    <!-- MENU HAMBURGUER -->
+    <div class="menu-button w-nav-button" label="menu" role="button" style="" >
+     <div class="w-icon-nav-menu">
+      <!-- <span>-</span><span>-</span><span>-</span>-->
+<!-- SVG ANIMATION HAMBURGUER -->
+       <svg
+       width="30"
+       height="30"
+       viewBox="0 0 32 42"
+       xmlns="http://www.w3.org/2000/svg"
+       onclick="this.classList.toggle('active')"
+     >
+       <g transform="matrix(1,0,0,1,-389.5,-264.004)">
+         <g id="arrow_left2">
+           <g transform="matrix(1,0,0,1,0,5)">
+             <path
+               id="top"
+               d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+             />
+           </g>
+           <g
+             transform="matrix(1,1.22465e-16,1.22465e-16,-1,0.00024296,564.935)"
+           >
+             <path
+               id="bottom"
+               d="M390,270L420,270L420,270C420,270 420.195,250.19 405,265C389.805,279.81 390,279.967 390,279.967"
+             />
+           </g>
+           <path id="middle" d="M390,284.967L420,284.967" />
+         </g>
+       </g>
+     </svg>
+     </div>
     </div>
+  
+    <!-- NAVBAR -->
+      <nav class=" w-nav-menu" role="navigation" id="w-nav-menu">
+      <a class="nav-link w-nav-link w--current nav-link-current" href="#">Home</a>
+      <a class="nav-link w-nav-link" href="#projects">Projects</a>
+      <a class="nav-link w-nav-link" href="#services">Services</a>
+    </nav> 
+
+
+    <!-- <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0" style="height: 5093.05px; display: block;">
+      <nav role="navigation" class="w-nav-menu" style="transform: translateY(0px) translateX(0px); transition: transform 400ms ease 0s;" data-nav-menu-open="">
+        <a href="/" aria-current="page" class="nav-link w-nav-link w--current w--nav-link-open">Home</a>
+        <a href="#" class="nav-link w-nav-link w--nav-link-open">Projects</a>
+        <a href="#" class="nav-link w-nav-link w--nav-link-open">Services</a>
+      </nav>
+    </div> -->
+
+
+    <!-- BUTTOM CONTACT US -->
+    <a  class="button primary-button w-button" href="./html/contact-us.html">Contact Us</a>
+    
+    <!-- "Menu hamburguesa que se despliega con un click"  -->
+    <!-- <a href="javascript:void(0);" class="icon" onclick="hamburguerClick()">
+      <i class="fa fa-bars"></i>
+    </a> -->
+ 
   </div>
+</div>
 
 
   <!-- PROJECT SECTION   -->
@@ -177,6 +230,8 @@
       </div>
   </div>
 
+  <script src="/js/app.js"></script>
+  <script src="/js/project.js"></script>
 </body>
 
 </html>
