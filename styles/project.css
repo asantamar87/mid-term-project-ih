@@ -115,15 +115,11 @@ h1 {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto auto;
 
-  /* -ms-grid-rows: auto auto; */
-  /* -ms-grid-columns: 1fr 1fr 1fr; */
 }
 
 
 .project-card {
   width: 340px;
-  height: 444px;
-
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
