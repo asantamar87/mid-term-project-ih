@@ -67,6 +67,15 @@
  
 
 
+.contact-text-field::placeholder {
+
+  color: #6b708d;
+  font-size: 17px;
+  margin-top: 10px;
+
+}
+
+
 
 
 
