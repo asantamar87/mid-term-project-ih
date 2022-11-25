@@ -3,7 +3,7 @@ svg {
     clip-rule: evenodd;
     stroke-linecap: round;
     stroke-linejoin: round;
-    stroke-miterlimit: 1.5;
+    stroke-miterlimit: 0.5;
     cursor:pointer;
   }
 

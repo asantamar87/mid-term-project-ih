@@ -261,6 +261,7 @@ line-height: 150%;
 /* Media Query - Mobile */
 @media (max-width: 479px) {
 
+
   /* S E C T I O N   N A V B A R   */
 
   .navbar-2.contact {
@@ -283,16 +284,20 @@ line-height: 150%;
 
   .w-icon-nav-menu {
     display: block;
+
   }
 
   .w-nav-menu {
     flex-direction: column;
     display: none;
+    background-color: #C8C8C8;
   }
 
   .w--nav-link-open {
     display: block;
     position: relative;
+    /* background-color: #C8C8C8; */
+
   }
 
   .w-nav-link.w--current {
@@ -387,7 +392,9 @@ line-height: 150%;
 .project-card {
   width: 100%;
   max-width: 100%;
+  margin-bottom: 150px;
 }
+
 
 .projects-heading {
   font-size: 30px;
