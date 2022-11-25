@@ -157,8 +157,8 @@ h6 {
 /* HERO - TEXT */
 .text-block.hero-description {
    max-width: 600px;
-  /* text-align: center; */
-  /* margin-left: 60px;  */
+  text-align: center; 
+   margin-left: 60px; 
 }
 
 

@@ -6,7 +6,7 @@
         let project = json[0]
         console.log(project);
 
-         document.querySelector(".project-page-title").innerText =  project.title
+         document.querySelector(".project-page-title").innerText =  project.title.substring(0,30)
          document.querySelector(".project-detail").innerText =  project.body
 
       })
