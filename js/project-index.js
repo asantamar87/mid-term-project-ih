@@ -18,8 +18,8 @@ const getDataMain = () => {
           </div>
           <div class="project-content">
             <div class="project-text">
-              <div class="project-title" id="project-title">${element.title.substring(0,40)}</div>
-              <div class="project-title project-description">${element.body}</div>
+              <div class="project-title" id="project-title">${element.title.substring(0,20)}</div>
+              <div class="project-title project-description">${element.body.substring(0,150)}</div>
               <a class="project-link" href="./html/projects/simplify.html" >Learn More</a>
             </div>
           </div>
