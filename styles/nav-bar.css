@@ -53,7 +53,12 @@ a:hover {
     background-color: #072ac8;
     font-size: 17px;
     text-decoration: none;
-
 }
+
+
+.w-icon-nav-menu{
+    display: none;
+  }
+
 
 
